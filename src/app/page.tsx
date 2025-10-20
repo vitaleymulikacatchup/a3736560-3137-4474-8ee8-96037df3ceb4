@@ -1,4 +1,4 @@
-use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -44,7 +44,7 @@ export default function Page() {
         <HeroBillboard
           title="Welcome to IT Solutions"
           description="Empowering your digital transformation with innovative IT solutions."
-          imageSrc={assetMap.find(a => a.id === 'hero-bg')?.url ?? "/public/images/placeholder.webp"}
+          imageSrc="https://images.pexels.com/photos/34332317/pexels-photo-34332317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           buttons={[
             { text: "Get Started", href: "services" },
             { text: "Contact Us", href: "contact" }
@@ -87,7 +87,7 @@ export default function Page() {
               name: "John Doe",
               role: "CEO",
               description: "Leader in tech innovation.",
-              imageSrc={assetMap.find(a => a.id === 'team-image')?.url ?? "/public/images/placeholder.webp"}
+              imageSrc="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             }
           ]}
         />
@@ -133,7 +133,7 @@ export default function Page() {
           tag="Contact Us"
           title="Let’s Get Started with Your IT Solutions"
           description="Reach out to us to discuss how our tech solutions can benefit your business."
-          imageSrc={assetMap.find(a => a.id === 'hero-bg')?.url ?? "/public/images/placeholder.webp"}
+          imageSrc="https://images.pexels.com/photos/34332317/pexels-photo-34332317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           mediaPosition="right"
         />
       </div>
